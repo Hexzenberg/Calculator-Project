@@ -6,6 +6,12 @@ body {
     justify-content: center;
 }
 
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
 #container {
     display: flex;
     align-items: center;
